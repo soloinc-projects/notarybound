@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="240" height="240" role="img" aria-labelledby="title">
+<g id="grid" data-grid="24" data-tile="5.4" data-cover="4.8 2.8 18.4 19.8 1.15" data-pages="5.7 3.6 19.4 20.6 1" data-spine="2.1" data-ribbon="15.3 16.9 22.1 0.8" data-seal="5.25 4.92 32" data-rim="4.42 0.36" data-core="3.62 0.36" data-section="0.86 0.8 325 145">
+  <title id="title">Notarybound</title>
+  <desc>The Notarybound mark on a 24-unit grid, y growing downward: a bound book with a notary's seal on its cover, on a berry tile with corners of radius 5.4. The cover (4.8 2.8 18.4 19.8 1.15: left, top, right, bottom, corner radius) has a bound spine 2.1 wide down its left edge; the page block (5.7 3.6 19.4 20.6 1) shows behind it to the right and below; a ribbon marker (15.3 16.9 22.1 0.8: left, right, the foot's tips, the V notch's depth) hangs below. The seal (5.25 4.92 32: tooth-tip radius, tooth-root radius, number of teeth) sits in the middle of the cover's face, right of the spine; it has an engraved rim (4.42 0.36: radius, width), an engraved inner ring (3.62 0.36) and at its centre a section sign (0.86 0.8 325 145: loop radius, stroke width, the top hook's start angle and the bottom hook's end angle in degrees), three loops stacked on the seal's centre, each two loop-radii apart. Written by assets/generate-assets.py --write-logo from the data- numbers on the grid element; never edited by hand.</desc>
+  <defs>
+    <linearGradient id="tile-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C81E7E"/>
+      <stop offset="1" stop-color="#8C1157"/>
+    </linearGradient>
+    <clipPath id="cover-clip">
+      <rect x="4.8" y="2.8" width="13.6" height="17" rx="1.15"/>
+    </clipPath>
+  </defs>
+  <rect id="tile" x="0" y="0" width="24" height="24" rx="5.4" fill="url(#tile-fill)"/>
+  <path id="ribbon" fill="#F2C14E" d="M15.3 18.8L16.9 18.8L16.9 22.1L16.1 21.3L15.3 22.1Z"/>
+  <rect id="pages" x="5.7" y="3.6" width="13.7" height="17" rx="1" fill="#E3CFB3"/>
+  <rect id="cover" x="4.8" y="2.8" width="13.6" height="17" rx="1.15" fill="#FBF3E6"/>
+  <rect id="spine" clip-path="url(#cover-clip)" x="4.8" y="2.8" width="2.1" height="17" fill="#E9D9C2"/>
+  <path id="seal" fill="#9C1563" d="M17.9 11.3L17.5463 11.7822L17.7991 12.3242L17.3581 12.7282L17.5004 13.3091L16.9891 13.6193L17.0152 14.2167L16.4532 14.4212L16.3623 15.0123L15.7712 15.1032L15.5667 15.6652L14.9693 15.6391L14.6591 16.1504L14.0782 16.0081L13.6742 16.4491L13.1322 16.1963L12.65 16.55L12.1678 16.1963L11.6258 16.4491L11.2218 16.0081L10.6409 16.1504L10.3307 15.6391L9.7333 15.6652L9.5288 15.1032L8.9377 15.0123L8.8468 14.4212L8.2848 14.2167L8.3109 13.6193L7.7996 13.3091L7.9419 12.7282L7.5009 12.3242L7.7537 11.7822L7.4 11.3L7.7537 10.8178L7.5009 10.2758L7.9419 9.8718L7.7996 9.2909L8.3109 8.9807L8.2848 8.3833L8.8468 8.1788L8.9377 7.5877L9.5288 7.4968L9.7333 6.9348L10.3307 6.9609L10.6409 6.4496L11.2218 6.5919L11.6258 6.1509L12.1678 6.4037L12.65 6.05L13.1322 6.4037L13.6742 6.1509L14.0782 6.5919L14.6591 6.4496L14.9693 6.9609L15.5667 6.9348L15.7712 7.4968L16.3623 7.5877L16.4532 8.1788L17.0152 8.3833L16.9891 8.9807L17.5004 9.2909L17.3581 9.8718L17.7991 10.2758L17.5463 10.8178Z"/>
+  <g id="engraving" fill="none" stroke="#FBF3E6">
+    <circle id="rim" cx="12.65" cy="11.3" r="4.42" stroke-width="0.36"/>
+    <circle id="core" cx="12.65" cy="11.3" r="3.62" stroke-width="0.36"/>
+    <g id="section" stroke-width="0.8" stroke-linecap="round">
+      <path d="M13.3545 9.0867 A0.86 0.86 0 1 0 12.65 10.44"/>
+      <circle cx="12.65" cy="11.3" r="0.86"/>
+      <path d="M12.65 12.16 A0.86 0.86 0 1 1 11.9455 13.5133"/>
+    </g>
+  </g>
+</g>
+</svg>
